@@ -1,0 +1,8 @@
+### get
+GET http://localhost:8080/get
+Accept: application/json
+
+### dely
+### curl --dump-header - --header 'Host: www.circuitbreaker.com' http://localhost:8080/delay/3
+GET http://localhost:8080/delay/3
+Host: www.circuitbreaker.com
